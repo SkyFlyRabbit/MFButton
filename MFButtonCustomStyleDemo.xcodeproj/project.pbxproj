@@ -15,6 +15,8 @@
 		377353AA1D90CDDE00B065E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377353A81D90CDDE00B065E2 /* LaunchScreen.storyboard */; };
 		377353B51D90CDDE00B065E2 /* MFButtonCustomStyleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377353B41D90CDDE00B065E2 /* MFButtonCustomStyleDemoTests.m */; };
 		377353C01D90CDDE00B065E2 /* MFButtonCustomStyleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377353BF1D90CDDE00B065E2 /* MFButtonCustomStyleDemoUITests.m */; };
+		377353D11D90D9C900B065E2 /* MFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 377353D01D90D9C900B065E2 /* MFButton.m */; };
+		377353D51D90DF2C00B065E2 /* gougou.png in Resources */ = {isa = PBXBuildFile; fileRef = 377353D41D90DF2C00B065E2 /* gougou.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		377353BB1D90CDDE00B065E2 /* MFButtonCustomStyleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFButtonCustomStyleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377353BF1D90CDDE00B065E2 /* MFButtonCustomStyleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFButtonCustomStyleDemoUITests.m; sourceTree = "<group>"; };
 		377353C11D90CDDE00B065E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377353CF1D90D9C900B065E2 /* MFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFButton.h; sourceTree = "<group>"; };
+		377353D01D90D9C900B065E2 /* MFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFButton.m; sourceTree = "<group>"; };
+		377353D41D90DF2C00B065E2 /* gougou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gougou.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,8 @@
 				3773539E1D90CDDE00B065E2 /* AppDelegate.m */,
 				377353A01D90CDDE00B065E2 /* ViewController.h */,
 				377353A11D90CDDE00B065E2 /* ViewController.m */,
+				377353D41D90DF2C00B065E2 /* gougou.png */,
+				377353CE1D90CE7400B065E2 /* Button */,
 				377353A31D90CDDE00B065E2 /* Main.storyboard */,
 				377353A61D90CDDE00B065E2 /* Assets.xcassets */,
 				377353A81D90CDDE00B065E2 /* LaunchScreen.storyboard */,
@@ -138,6 +145,15 @@
 				377353C11D90CDDE00B065E2 /* Info.plist */,
 			);
 			path = MFButtonCustomStyleDemoUITests;
+			sourceTree = "<group>";
+		};
+		377353CE1D90CE7400B065E2 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				377353CF1D90D9C900B065E2 /* MFButton.h */,
+				377353D01D90D9C900B065E2 /* MFButton.m */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 				377353AA1D90CDDE00B065E2 /* LaunchScreen.storyboard in Resources */,
 				377353A71D90CDDE00B065E2 /* Assets.xcassets in Resources */,
 				377353A51D90CDDE00B065E2 /* Main.storyboard in Resources */,
+				377353D51D90DF2C00B065E2 /* gougou.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377353D11D90D9C900B065E2 /* MFButton.m in Sources */,
 				377353A21D90CDDE00B065E2 /* ViewController.m in Sources */,
 				3773539F1D90CDDE00B065E2 /* AppDelegate.m in Sources */,
 				3773539C1D90CDDE00B065E2 /* main.m in Sources */,
